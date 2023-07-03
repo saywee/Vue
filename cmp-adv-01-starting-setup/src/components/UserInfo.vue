@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div>
+    <section>
       <h3>{{ fullName }}</h3>
       <base-badge :type="role" :caption="role.toUpperCase()"></base-badge>
-    </div>
+    </section>
     <p>{{ infoText }}</p>
   </section>
 </template>
